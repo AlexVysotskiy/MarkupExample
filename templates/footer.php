@@ -52,22 +52,26 @@
                 <div class="row">
                     <div id="request-form" class="col-md-8">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя">
                         </div>
                         <div class="form-group">
-                            <input type="" class="form-control" id="phone" placeholder="Ваш телефон">
+                            <input type="" class="form-control" id="phone" name="phone" placeholder="Ваш телефон">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="3" placeholder="Опишите проект для тестирования" style="resize: none;"></textarea>
+                            <textarea class="form-control" rows="3" name="desc" placeholder="Опишите проект для тестирования" style="resize: none;"></textarea>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <a class="btn btn-success styled send-request">Отправить</a>
                     </div>
                 </div>
-
+                <div class="">
+                    <div id="success-message" class="alert alert-success" role="alert" style="display: none;">
+                        <strong>Ваше сообщение отправлено!</strong> Мы свяжемся с Вами в ближайшее время!
+                    </div>
+                </div>
             </div>
-           
+
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
