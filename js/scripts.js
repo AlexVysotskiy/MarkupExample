@@ -1,5 +1,7 @@
 (function () {
 
+    $("#phone").mask("+7 (999) 999 99 99");
+
     $('[data-hoverable]').hover(function () {
 
         var element = $($(this).data('hoverable'));
@@ -121,10 +123,15 @@
 
 
     var modal = $('#send-request-modal');
+    
+    modal.on('hidden.bs.dropdown', function(){
+        console.log($(this));   
+    });
+    
     $('#send-request-link').on('click', function (e) {
 
         modal.modal('show');
-        
+
         return false;
     });
 })(jQuery);
