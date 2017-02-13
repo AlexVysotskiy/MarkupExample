@@ -2,7 +2,7 @@
 
 $map = array();
 
-$uri = isset($_SERVER['BASE']) && isset($_SERVER['REQUEST_URI']) ? str_replace($_SERVER['BASE'], '', $_SERVER['REQUEST_URI']) : '/';
+$uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
 
 $routeMap = array(
     '/' => 'main',
