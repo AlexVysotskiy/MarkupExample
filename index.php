@@ -25,7 +25,7 @@ if (in_array($uri, $serviceUrl)) {
 
         $name = strip_tags(trim(@$_REQUEST['name']));
         $phone = strip_tags(trim(@$_REQUEST['phone']));
-        $desc = strip_tags(trim(@$_REQUEST['DESC']));
+        $desc = strip_tags(trim(@$_REQUEST['desc']));
 
         if ($name && $phone && $desc) {
 
