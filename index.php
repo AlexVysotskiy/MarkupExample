@@ -42,7 +42,7 @@ if (in_array($uri, $serviceUrl)) {
             $headers .= "Content-type: text/html; charset=utf-8\r\n";
             $headers .= "From: Сайт " . $_SERVER['SERVER_NAME'] . " <" . $from . ">\r\n";
 
-//        mail($from, 'Заявка на консультацию с сайта ' . $_SERVER['SERVER_NAME'], $message, $headers);
+            mail($from, 'Заявка на консультацию с сайта ' . $_SERVER['SERVER_NAME'], $message, $headers);
 
             $response['mail'] = $message;
         } else {
