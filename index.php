@@ -29,7 +29,7 @@ if (in_array($uri, $serviceUrl)) {
 
         if ($name && $phone && $desc) {
 
-            $from = 'some@mail.ru';
+            $from = 'request@theQA.ru';
             $message = '<div><p>Заявка на консультацию с сайта <b>' . $_SERVER['SERVER_NAME'] . '</b></p>'
                     . '<p><b>Контактные данные:</b><br />'
                     . '&emsp;Имя: ' . $name . '<br />'
