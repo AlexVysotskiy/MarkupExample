@@ -29,19 +29,19 @@
                     </div>
                     <div class="col-md-10">
                         <ul class="nav nav-pills nav-justified font-medium">
-                            <li role="presentation">
+                            <li role="presentation" class="<?php echo $uri == '/company' ? 'active' : ''; ?>">
                                 <a href="/company">Компания</a>
                             </li>
-                            <li role="presentation">
+                            <li role="presentation" class="<?php echo $uri == '/services' ? 'active' : ''; ?>">
                                 <a href="/services">Услуги</a>
                             </li>
-                            <li role="presentation">
+                            <li role="presentation" class="<?php echo $uri == '/qa' ? 'active' : ''; ?>">
                                 <a href="/qa">Тестирование</a>
                             </li>
-                            <li role="presentation">
+                            <li role="presentation" class="<?php echo $uri == '/competence' ? 'active' : ''; ?>">
                                 <a href="/competence">Компетенции</a>
                             </li>
-                            <li role="presentation">
+                            <li role="presentation" class="<?php echo $uri == '/projects' ? 'active' : ''; ?>">
                                 <a href="/projects">Проекты</a>
                             </li>
                             <li role="presentation" class="no-border">
