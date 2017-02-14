@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <title>TheQA - Российская компания по тестированию ПО</title>
+        <!--<meta name="viewport" content="width=device-width, minimum-scale=1.0">-->
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <link rel="stylesheet" href="css/bootstrap.min.css"  />

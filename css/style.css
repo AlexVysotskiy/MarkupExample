@@ -93,7 +93,7 @@ body {
 
 .container-fluid
 {
-    max-width: 1038px;
+    width: 1038px!important;
 }
 
 .b-radius-10
