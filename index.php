@@ -18,6 +18,8 @@ $serviceUrl = array(
     '/sendmail'
 );
 
+$baseLink = '';
+
 if (in_array($uri, $serviceUrl)) {
 
     $response = array('success' => 1);

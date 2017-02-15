@@ -23,7 +23,7 @@
                 <div class="container-fluid">
 
                     <div class="col-md-2">
-                        <a class="navbar-brand" href="/">
+                        <a class="navbar-brand" href="<?php echo $baseLink; ?>/">
                             <!--<img alt="Brand" src="img/logo.png" />-->
                         </a>
                     </div>
@@ -68,29 +68,8 @@
         </div><!-- .wrapper -->
 
         <div class="footer">
-<!--            <div class="container-fluid">
-                <div class="col-md-4">
-                    <div class="row">
-                        <a class="navbar-brand" href="/">
-                            <img alt="Brand" src="img/logo.png">
-                        </a>
-                    </div>
-                    <div class="shadow">
-                        © 2016 - <?php echo date('Y'); ?> The QA. Все права защищены.
-                    </div>
-                </div>
-                <div class="col-md-4 text-center social-icons">
-                   
-                </div>
-                <div class="col-md-4 contact-info">
-                    <div>
-                        <img src="img/icon-phone-sm.png" /> <a href="tel:+74951234567">+7 (495) 123-45-67</a>
-                    </div>
-                    <div>
-                        <img src="img/icon-mail.png" />  <a href="mailto:request@theQA.ru">request@theQA.ru </a>
-                    </div>
-                </div>
-            </div>-->
+
+            
         </div>
 
         <script type="text/javascript" src="js/jquery.min.js"></script>

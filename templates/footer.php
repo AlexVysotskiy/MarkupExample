@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="col-md-4">
             <div class="row">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="<?php echo $baseLink; ?>/">
                     <img alt="Brand" src="img/logo.png">
                 </a>
             </div>

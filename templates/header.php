@@ -23,26 +23,26 @@
                 <div class="container-fluid">
 
                     <div class="col-md-2">
-                        <a class="navbar-brand" href="/">
+                        <a class="navbar-brand" href="<?php echo $baseLink; ?>/">
                             <!--<img alt="Brand" src="img/logo.png" />-->
                         </a>
                     </div>
                     <div class="col-md-10">
                         <ul class="nav nav-pills nav-justified font-medium">
                             <li role="presentation" class="<?php echo $uri == '/company' ? 'active' : ''; ?>">
-                                <a href="/company">Компания</a>
+                                <a href="<?php echo $baseLink; ?>/company">Компания</a>
                             </li>
                             <li role="presentation" class="<?php echo $uri == '/services' ? 'active' : ''; ?>">
-                                <a href="/services">Услуги</a>
+                                <a href="<?php echo $baseLink; ?>/services">Услуги</a>
                             </li>
                             <li role="presentation" class="<?php echo $uri == '/qa' ? 'active' : ''; ?>">
-                                <a href="/qa">Тестирование</a>
+                                <a href="<?php echo $baseLink; ?>/qa">Тестирование</a>
                             </li>
                             <li role="presentation" class="<?php echo $uri == '/competence' ? 'active' : ''; ?>">
-                                <a href="/competence">Компетенции</a>
+                                <a href="<?php echo $baseLink; ?>/competence">Компетенции</a>
                             </li>
                             <li role="presentation" class="<?php echo $uri == '/projects' ? 'active' : ''; ?>">
-                                <a href="/projects">Проекты</a>
+                                <a href="<?php echo $baseLink; ?>/projects">Проекты</a>
                             </li>
                             <li role="presentation" class="no-border">
                                 <a id="send-request-link" href="#" class="btn btn-success styled">Оставить заявку</a>

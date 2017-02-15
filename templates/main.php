@@ -238,7 +238,7 @@ include 'header.php';
 
         </div>
         <div class="row text-center action-row">
-            <a href="/projects" class="btn btn-success styled  ">
+            <a href="<?php echo $baseLink; ?>/projects" class="btn btn-success styled  ">
                 Смотреть все проекты
             </a>
         </div>
