@@ -11,6 +11,7 @@ $routeMap = array(
     '/qa' => 'qa',
     '/projects' => 'projects',
     '/competence' => 'competence',
+    '/closed' => 'closed',
 );
 
 $serviceUrl = array(
