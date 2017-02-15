@@ -68,7 +68,7 @@
         </div><!-- .wrapper -->
 
         <div class="footer">
-            <div class="container-fluid">
+<!--            <div class="container-fluid">
                 <div class="col-md-4">
                     <div class="row">
                         <a class="navbar-brand" href="/">
@@ -90,8 +90,8 @@
                         <img src="img/icon-mail.png" />  <a href="mailto:request@theQA.ru">request@theQA.ru </a>
                     </div>
                 </div>
-            </div>
-        </div><!-- .footer -->
+            </div>-->
+        </div>
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
