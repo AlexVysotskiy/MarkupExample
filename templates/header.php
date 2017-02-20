@@ -7,9 +7,9 @@
         <!--<meta name="viewport" content="width=device-width, minimum-scale=1.0">-->
         <meta name="keywords" content="" />
         <meta name="description" content="" />
-        <link rel="stylesheet" href="css/bootstrap.min.css"  />
-        <link rel="stylesheet" href="css/swiper.min.css"  />
-        <link rel="stylesheet" href="css/style.css"  />
+        <link rel="stylesheet" href="css/bootstrap.min.css?v=1"  />
+        <link rel="stylesheet" href="css/swiper.min.css?v=1"  />
+        <link rel="stylesheet" href="css/style.css?v=1"  />
     </head>
 
     <body>
