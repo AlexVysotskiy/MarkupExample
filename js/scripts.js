@@ -185,4 +185,29 @@
 
         return false;
     });
+
+    $(window).on('scroll', function () {
+
+        var header = $('div.header');
+
+        if ($(window).scrollTop() > 90) {
+
+            if (!header.hasClass('black'))
+            {
+                header.data('black', 1);
+                header.addClass('black');
+            }
+
+            header.addClass('scrolled');
+        } else {
+
+            header.removeClass('scrolled');
+            if (header.data('black'))
+            {
+                header.removeClass('black');
+            }
+        }
+    });
+
+    $(window).trigger('scroll');
 })(jQuery);

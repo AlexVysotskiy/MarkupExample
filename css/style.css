@@ -38,8 +38,18 @@ body {
     border-bottom: 1px solid rgba(255,255,255,0.3);
     z-index: 100;
     position: relative;
+    width: 100%;
     /*max-width: 1204px;*/
     margin: 0 auto;
+}
+
+.header.scrolled
+{
+    position: fixed;
+    background-color: #fff!important;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Footer
