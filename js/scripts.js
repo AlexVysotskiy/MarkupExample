@@ -111,17 +111,20 @@
 
     if (verticalSlider.length)
     {
-        var swiperV = new Swiper('.swiper-container-v', {
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            direction: 'vertical',
-            spaceBetween: 25,
-            height: 230,
-            centeredSlides: true,
-            slidesOffsetBefore: 115,
-            initialSlide: 1
-        });
 
+        verticalSlider.each(function () {
+
+            var swiperV = new Swiper($(this), {
+                nextButton: $(this).parent().find('.swiper-button-next').first(),
+                prevButton:  $(this).parent().find('.swiper-button-prev').first(),
+                direction: 'vertical',
+                spaceBetween: 25,
+                height: 230,
+                centeredSlides: true,
+                slidesOffsetBefore: 115,
+                initialSlide: 1
+            });
+        });
     }
 
 
