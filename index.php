@@ -39,7 +39,7 @@ if (in_array($uri, $serviceUrl)) {
             $message = '<div><p>Заявка на консультацию с сайта <b>' . $_SERVER['SERVER_NAME'] . '</b></p>'
                     . '<p><b>Контактные данные:</b><br />'
                     . '&emsp;Имя: ' . $name . '<br />'
-                    . '&emsp;Телефон: ' . $phone
+                    . '&emsp;Телефон: ' . $phone . '<br />'
                     . '&emsp;Описание проекта: ' . $desc . '</p>'
                     . '</div>';
             $message = wordwrap($message, 70);
