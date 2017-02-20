@@ -8,6 +8,7 @@
         if (element.length)
         {
             element.addClass('hover');
+
         }
 
     }, function () {
@@ -16,10 +17,17 @@
         if (element.length)
         {
             element.removeClass('hover');
+
         }
     });
 
-    // main page, project slider
+    $('[data-redirect]').on('click', function () {
+
+        location = $(this).data('redirect');
+
+    });
+
+    // slider on main
     var holder = $('.projects-desc');
     if (holder.length)
     {
@@ -30,8 +38,8 @@
             prevButton: '.swiper-button-prev',
             initialSlide: 0,
             effect: 'coverflow',
-//        grabCursor: true,
             centeredSlides: true,
+            loop: true,
             slidesPerView: 'auto',
             coverflow: {
                 rotate: 50,
@@ -44,7 +52,7 @@
 
         swiper.on('transitionEnd', function (swiper) {
 
-            var related = $('#project-desc-' + swiper.activeIndex);
+            var related = $('#project-desc-' + swiper.realIndex);
 
             if (related.length)
             {
@@ -67,12 +75,7 @@
     }
 
     // services page, sliders
-    var holder = $('#services-sliders');
-    if (!holder.length)
-    {
-        holder = $('#projects-sliders');
-    }
-
+    var holder = $('#projects-page #services-sliders');
     if (holder.length)
     {
         var swiper = new Swiper('#' + holder.attr('id'), {
@@ -127,6 +130,8 @@
     modal.on('hidden.bs.modal', function (e) {
         $(this).find('.form-control').val('');
         modal.find('.has-error').removeClass('has-error');
+        modal.find('.modal-body.first').show(1);
+        modal.find('.modal-body.second').hide(1);
     });
 
     modal.find('.send-request').on('click', function () {
@@ -161,10 +166,10 @@
                 url: "/sendmail",
                 data: data,
                 success: function (data) {
-                    
-                    console.log(modal.find('#success-message'));
-                    modal.find('#success-message').show(1).delay(3000).hide(300);
-                    setTimeout(function(){
+
+                    modal.find('.modal-body.first').hide(1);
+                    modal.find('.modal-body.second').show(1).delay(3000).hide(300);
+                    setTimeout(function () {
                         modal.modal('hide');
                     }, 3000);
                 }

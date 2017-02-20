@@ -25,9 +25,9 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="func-testing" class="col-md-4 item">
+            <div id="func-testing" class="col-md-4 item search" data-redirect="<?php echo $baseLink; ?>/competence#func">
                 <div class="icon">
-                    <img src="img/icon-search.png" />
+                    <!--<img src="img/icon-search.png" />-->
                 </div>
                 <div class="header-text">
                     Функциональное тестирование
@@ -37,9 +37,9 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="ui-testing" class="col-md-4 item">
+            <div id="ui-testing" class="col-md-4 item write" data-redirect="<?php echo $baseLink; ?>/competence#ui">
                 <div class="icon">
-                    <img src="img/icon-write.png" />
+                    <!--<img src="img/icon-write.png" />-->
                 </div>
                 <div class="header-text">
                     Юзабилити тестирование
@@ -49,9 +49,9 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="i18n-testing" class="col-md-4 item">
+            <div id="i18n-testing" class="col-md-4 item az" data-redirect="<?php echo $baseLink; ?>/competence#i18n">
                 <div class="icon">
-                    <img src="img/icon-az.png" />
+                    <!--<img src="img/icon-az.png" />-->
                 </div>
                 <div class="header-text">
                     Тестирование локализации
@@ -64,17 +64,17 @@ include 'header.php';
         </div>
         <div class="row promo-features-links">
             <div class="col-md-4 item">
-                <a href="#" class="btn btn-success styled  " data-hoverable="#func-testing">
+                <a href="<?php echo $baseLink; ?>/competence#func" class="btn btn-success styled  " data-hoverable="#func-testing">
                     Подробнее
                 </a>
             </div>
             <div class="col-md-4 item">
-                <a href="#" class="btn btn-success styled  " data-hoverable="#ui-testing">
+                <a href="<?php echo $baseLink; ?>/competence#ui" class="btn btn-success styled  " data-hoverable="#ui-testing">
                     Подробнее
                 </a>
             </div>
             <div class="col-md-4 item">
-                <a href="#" class="btn btn-success styled  " data-hoverable="#i18n-testing">
+                <a href="<?php echo $baseLink; ?>/competence#i18n" class="btn btn-success styled  " data-hoverable="#i18n-testing">
                     Подробнее
                 </a>
             </div>
@@ -89,9 +89,9 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="mobile-app" class="col-md-4 item">
+            <div id="mobile-app" class="col-md-4 item phone" data-redirect="<?php echo $baseLink; ?>/competence#app">
                 <div class="icon">
-                    <img src="img/icon-phone.png" />
+                    <!--<img src="img/icon-phone.png" />-->
                 </div>
                 <div class="header-text">
                     Мобильные приложения
@@ -102,9 +102,9 @@ include 'header.php';
 
             </div>
 
-            <div id="web-sites" class="col-md-4 item">
+            <div id="web-sites" class="col-md-4 item desctop" data-redirect="<?php echo $baseLink; ?>/competence#web">
                 <div class="icon">
-                    <img src="img/icon-desctop.png" />
+                    <!--<img src="img/icon-desctop.png" />-->
                 </div>
                 <div class="header-text">
                     Web-сайты
@@ -118,9 +118,9 @@ include 'header.php';
 
             </div>
 
-            <div id="social-app" class="col-md-4 item">
+            <div id="social-app" class="col-md-4 item social" data-redirect="<?php echo $baseLink; ?>/competence#social">
                 <div class="icon">
-                    <img src="img/icon-social.png" />
+                    <!--<img src="img/icon-social.png" />-->
                 </div>
                 <div class="header-text">
                     Приложения<br/>для соц. сетей
@@ -134,17 +134,17 @@ include 'header.php';
 
         <div class="row promo-features-links">
             <div class="col-md-4 item">
-                <a href="#" class="btn btn-success styled  " data-hoverable="#mobile-app">
+                <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled  " data-hoverable="#mobile-app">
                     Подробнее
                 </a>
             </div>
             <div class="col-md-4 item">
-                <a href="#" class="btn btn-success styled  " data-hoverable="#web-sites">
+                <a href="<?php echo $baseLink; ?>/services#web" class="btn btn-success styled  " data-hoverable="#web-sites">
                     Подробнее
                 </a>
             </div>
             <div class="col-md-4 item">
-                <a href="#" class="btn btn-success styled  " data-hoverable="#social-app">
+                <a href="<?php echo $baseLink; ?>/services#social" class="btn btn-success styled  " data-hoverable="#social-app">
                     Подробнее
                 </a>
             </div>
@@ -175,7 +175,7 @@ include 'header.php';
             <div class="projects-desc">
                 <div id="project-desc-0" class="item active">
                     <h1 class="header-text">
-                        Ми-ми-мишки1
+                        Ми-ми-мишки
                     </h1>
                     <div class="body-text font-light">
                         Детская развивающая игра "Ми-ми-мишки" от "Интерактивного Мульта" 

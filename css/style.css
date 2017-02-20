@@ -7,13 +7,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     display: block;
 }
 
-body {
-    font: 300 12px Roboto;
+body {    
+    font: 300 14px Roboto;
     width: 100%;
     height: 100%;
     background: #fff;
     color: #3b3d40;
     min-width: 1038px;
+}
+
+.main-content
+{
+    margin-bottom: 50px;
 }
 
 .wrapper {
@@ -33,7 +38,7 @@ body {
     border-bottom: 1px solid rgba(255,255,255,0.3);
     z-index: 100;
     position: relative;
-    max-width: 1204px;
+    /*max-width: 1204px;*/
     margin: 0 auto;
 }
 
@@ -41,12 +46,12 @@ body {
 -----------------------------------------------------------------------------*/
 .footer {
     /*width: 1000px;*/
-    margin: -100px auto 0;
-    height: 100px;
+    margin: -85px auto 0;
+    height: 85px;
     background: #3b3d40;
     color: #fff;
     position: relative;
-    padding-top: 25px;
+    padding-top: 5px;
     font-size: 14px;
 }
 
@@ -70,10 +75,16 @@ body {
     margin-right: 10px;
 }
 
+.footer .contact-info
+{
+    margin-top: 15px;
+}
+
 .footer .contact-info a
 {
     text-transform: none;
     text-decoration: underline;
+    font-size: 16px;
 }
 
 .footer .contact-info div + div
@@ -93,7 +104,9 @@ body {
 
 .container-fluid
 {
-    width: 1038px!important;
+    width: 998px!important;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .b-radius-10
@@ -135,7 +148,7 @@ body {
 
 .header .nav
 {
-    margin-top: 37px;
+    /*margin-top: 37px;*/
 }
 
 a {
@@ -164,7 +177,14 @@ a.btn.btn-success.styled:hover,
 a.btn.btn-success.styled:active,
 a.btn.btn-success.styled:link
 {
-    background-color: #669900;
+    background-color: #72b30d;
+}
+
+a.btn.btn-success.styled:hover
+{
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(114,179,13,0.3);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(114,179,13,0.3);
+    box-shadow: 0px 10px 20px 0px rgba(114,179,13,0.3);
 }
 
 
@@ -176,7 +196,8 @@ h1
 
 .header .navbar-brand
 {
-    margin-top: 40px;
+    margin: 35px 0;
+    /*margin-top: 40px;*/
     padding-top: 0px;
     padding-left: 0px;
     display: block;
@@ -200,7 +221,7 @@ h1
 
 .header .nav>li>a
 {
-    padding: 10px 5px 23px;
+    padding: 38px 5px;
 }
 
 .header .nav-pills > li.active, .header .nav-pills>li.active, .header .nav>li:hover, .header .nav>li:hover
@@ -271,30 +292,107 @@ h1
 .promo-features .item
 {
     text-align: center;
+    cursor: pointer;
 }
 
-.promo-features .item>.icon
+.promo-features .item > .icon
 {
     height: 160px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.promo-features .item.search > .icon
+{
+    width: 109px;
+    background-image: url(../img/icon-search.png);
+}
+
+.promo-features .item.search.hover > .icon,
+.promo-features .item.search:hover > .icon
+{
+    background-image: url(../img/icon-search_c.png);
+}
+
+.promo-features .item.write > .icon
+{
+    width: 104px;
+    background-image: url(../img/icon-write.png);
+}
+
+.promo-features .item.write.hover > .icon,
+.promo-features .item.write:hover > .icon
+{
+    background-image: url(../img/icon-write_c.png);
+}
+
+.promo-features .item.az > .icon
+{
+    width: 111px;
+    background-image: url(../img/icon-az.png);
+}
+
+.promo-features .item.az.hover > .icon,
+.promo-features .item.az:hover > .icon
+{
+    background-image: url(../img/icon-az_c.png);
+}
+
+.promo-features .item.phone > .icon
+{
+    width: 88px;
+    background-image: url(../img/icon-phone.png);
+}
+
+.promo-features .item.phone.hover > .icon,
+.promo-features .item.phone:hover > .icon
+{
+    background-image: url(../img/icon-phone_c.png);
+}
+
+.promo-features .item.desctop > .icon
+{
+    width: 135px;
+    background-image: url(../img/icon-desctop.png);
+}
+
+.promo-features .item.desctop.hover > .icon,
+.promo-features .item.desctop:hover > .icon
+{
+    background-image: url(../img/icon-desctop_c.png);
+}
+
+.promo-features .item.social > .icon
+{
+    width: 91px;
+    background-image: url(../img/icon-social.png);
+}
+
+.promo-features .item.social.hover > .icon,
+.promo-features .item.social:hover > .icon
+{
+    background-image: url(../img/icon-social_c.png);
 }
 
 .promo-features .item>.header-text
 {
     font-weight: 700;
     font-size: 30px;
-    margin: 30px 0;
+    margin: 30px 0 45px;
 }
 
-.promo-features .item.hover>.header-text
+.promo-features .item.hover > .header-text,
+.promo-features .item:hover > .header-text
 {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .promo-features .item>.body-text
 {
-    font-weight: 300;
+    /*font-weight: 300;*/
+    text-align: justify;
     font-size: 18px;
-    margin: 0 50px 10px;
+    margin: 0 10px 10px;
 }
 
 .promo-features-links .item
@@ -307,7 +405,7 @@ h1
 {
     background-image: url(../img/promo-1-bg.png);
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
     color: #fff;
     /*font: 300 38px Roboto;*/
     text-align: center;
@@ -330,10 +428,15 @@ h1
     line-height: 35px;
 }
 
+.main-promoWeTest
+{
+    background-color: #f2f7ff;
+}
+
 .main-promoCompetence h1, .main-promoWeTest h1
 {
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .main-promoCompetence, .main-promoWeTest
@@ -351,12 +454,13 @@ h1
 .gallery-holder .header-text
 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 
 .main-promoOurProjects .action-row
 {
-    margin: 30px 0 80px;
+    margin: 50px 0 80px;
 }
 
 .main-promoOurProjects .swiper-button-prev, .main-promoOurProjects  .swiper-container-rtl .swiper-button-next
@@ -395,8 +499,8 @@ h1
 .info-sliders.swiper-container
 {
     width: 100%;
-    height: 320px;
-    margin: 50px 0;
+    height: 450px;
+    margin: 70px 0;
 }
 
 .info-sliders.swiper-container .swiper-slide
@@ -405,10 +509,10 @@ h1
     font-size: 18px;
     background: #fff;
     /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    /*    display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;*/
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -417,6 +521,12 @@ h1
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+}
+
+.info-sliders h1
+{
+    text-align: left;
+    margin-bottom: 60px;
 }
 
 .swiper-pagination-bullet
@@ -453,12 +563,14 @@ ul
 ul.styled 
 {
     font-size: 18px;
+    padding-left: 100px;
+    width: 80%;
 }
 
 ul.styled li
 {
     list-style-type: none;
-
+    position: relative
 }
 
 ul.styled li:before
@@ -471,7 +583,9 @@ ul.styled li:before
     -moz-border-radius: 10px;
     border-radius: 10px;
     content: "";
-    margin-right: 25px;
+    left: -50px;
+    top: 8px;
+    position: absolute;
 }
 
 ul.styled li + li
@@ -480,20 +594,27 @@ ul.styled li + li
 }
 
 
-#services-sliders
+#services-page
 {
     font-size: 16px;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
-#services-sliders div.text
+#services-page div.item
+{
+    margin-top: 70px;
+}
+
+
+#services-page div.text
 {
     text-align: left;
 }
 
-#services-sliders h2
+#services-page h1
 {
     margin-bottom: 40px;
+    font-size: 38px;
     margin-top: 0px;
 }
 
@@ -564,17 +685,19 @@ ul.styled li + li
 #services-sliders .projects-list .title
 {
     text-align: right;
+    font-size: 16px;
 }
 
 #services-sliders .projects-list .value
 {
     font-weight: 400;
     text-align: left;
+    font-size: 18px;
 }
 
 #services-sliders .projects-list .row + .row
 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #services-sliders .swiper-container-v
@@ -629,9 +752,54 @@ ul.styled li + li
 .modal .modal-body
 {
     font-size: 16px;    
+    color: #000;
 }
 
 .modal .send-request
 {
     margin-top: 120px;
+}
+
+.modal-title
+{
+    font-weight: 700;
+}
+
+
+.modal .close
+{
+    opacity: 1;
+    outline: none;
+    font-size: 42px;
+    font-weight: 300;    
+}
+
+.modal-header
+{
+    border-bottom: none;
+}
+
+
+.modal .form-control
+{
+    min-height: 41px;    
+}
+
+.modal .form-control:focus {
+    border-color: #72b30d;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#projects-page h1
+{
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#projects-page #services-sliders
+{
+    margin-top: 80px;
 }

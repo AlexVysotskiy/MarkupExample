@@ -2,7 +2,12 @@
 
 $map = array();
 
+
+$baseLink = '';
+
 $uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
+
+$uri = str_replace($baseLink, '', $uri);
 
 $routeMap = array(
     '/' => 'main',
@@ -17,8 +22,6 @@ $routeMap = array(
 $serviceUrl = array(
     '/sendmail'
 );
-
-$baseLink = '';
 
 if (in_array($uri, $serviceUrl)) {
 

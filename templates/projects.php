@@ -56,70 +56,70 @@ include 'header.php';
                         </div>
 
                         <div class="col-md-6 project-info">
-                            <h2>
+                            <h1>
                                 Ми-ми-мишки
-                            </h2>
+                            </h1>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
@@ -170,70 +170,70 @@ include 'header.php';
                         </div>
 
                         <div class="col-md-6 project-info">
-                            <h2>
+                            <h1>
                                 Ми-ми-мишки
-                            </h2>
+                            </h1>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
@@ -284,70 +284,70 @@ include 'header.php';
                         </div>
 
                         <div class="col-md-6 project-info">
-                            <h2>
+                            <h1>
                                 Ми-ми-мишки
-                            </h2>
+                            </h1>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
@@ -398,70 +398,70 @@ include 'header.php';
                         </div>
 
                         <div class="col-md-6 project-info">
-                            <h2>
+                            <h1>
                                 Ми-ми-мишки
-                            </h2>
+                            </h1>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     О проекте
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Официальная страница
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Мобильные платформы
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 title">
+                                <div class="col-md-3 title">
                                     Длительность проекта
                                 </div>
-                                <div class="col-md-8 value">
+                                <div class="col-md-9 value">
                                     Игра для мобильных устройств для детей от 3 до 6 лет.
                                 </div>
                             </div>
@@ -474,11 +474,13 @@ include 'header.php';
         </div>
 
         <div class="actions row">
-            <div class="button-prev pull-left swiper-button-disabled">
-                Предыдущий
-            </div>
-            <div class="button-next pull-right swiper-button-disabled">
-                Следующий
+            <div class="col-md-12">
+                <div class="button-prev pull-left swiper-button-disabled">
+                    Предыдущий
+                </div>
+                <div class="button-next pull-right swiper-button-disabled">
+                    Следующий
+                </div>
             </div>
         </div>
 

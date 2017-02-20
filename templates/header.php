@@ -22,32 +22,39 @@
 
                 <div class="container-fluid">
 
-                    <div class="col-md-2">
-                        <a class="navbar-brand" href="<?php echo $baseLink; ?>/">
-                            <!--<img alt="Brand" src="img/logo.png" />-->
-                        </a>
-                    </div>
-                    <div class="col-md-10">
-                        <ul class="nav nav-pills nav-justified font-medium">
-                            <li role="presentation" class="<?php echo $uri == '/company' ? 'active' : ''; ?>">
-                                <a href="<?php echo $baseLink; ?>/company">Компания</a>
-                            </li>
-                            <li role="presentation" class="<?php echo $uri == '/services' ? 'active' : ''; ?>">
-                                <a href="<?php echo $baseLink; ?>/services">Услуги</a>
-                            </li>
-                            <li role="presentation" class="<?php echo $uri == '/qa' ? 'active' : ''; ?>">
-                                <a href="<?php echo $baseLink; ?>/qa">Тестирование</a>
-                            </li>
-                            <li role="presentation" class="<?php echo $uri == '/competence' ? 'active' : ''; ?>">
-                                <a href="<?php echo $baseLink; ?>/competence">Компетенции</a>
-                            </li>
-                            <li role="presentation" class="<?php echo $uri == '/projects' ? 'active' : ''; ?>">
-                                <a href="<?php echo $baseLink; ?>/projects">Проекты</a>
-                            </li>
-                            <li role="presentation" class="no-border">
-                                <a id="send-request-link" href="#" class="btn btn-success styled">Оставить заявку</a>
-                            </li>
-                        </ul>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <?php if ($template == 'main'): ?>
+                                <div class="navbar-brand">
+                                </div>
+                            <?php else: ?>
+                                <a class="navbar-brand" href="<?php echo $baseLink; ?>/">
+                                </a>
+                            <?php endif; ?>
+
+                        </div>
+                        <div class="col-md-10">
+                            <ul class="nav nav-pills nav-justified font-medium">
+                                <li role="presentation" class="<?php echo $uri == '/company' ? 'active' : ''; ?>">
+                                    <a href="<?php echo $baseLink; ?>/company">Компания</a>
+                                </li>
+                                <li role="presentation" class="<?php echo $uri == '/services' ? 'active' : ''; ?>">
+                                    <a href="<?php echo $baseLink; ?>/services">Услуги</a>
+                                </li>
+                                <li role="presentation" class="<?php echo $uri == '/qa' ? 'active' : ''; ?>">
+                                    <a href="<?php echo $baseLink; ?>/qa">Тестирование</a>
+                                </li>
+                                <li role="presentation" class="<?php echo $uri == '/competence' ? 'active' : ''; ?>">
+                                    <a href="<?php echo $baseLink; ?>/competence">Компетенции</a>
+                                </li>
+                                <li role="presentation" class="<?php echo $uri == '/projects' ? 'active' : ''; ?>">
+                                    <a href="<?php echo $baseLink; ?>/projects">Проекты</a>
+                                </li>
+                                <li role="presentation" class="no-border">
+                                    <a id="send-request-link" href="#" class="btn btn-success styled">Оставить заявку</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
