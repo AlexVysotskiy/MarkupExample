@@ -190,7 +190,7 @@
 
         var header = $('div.header');
 
-        if ($(window).scrollTop() > 90) {
+        if ($(window).scrollTop() > 150) {
 
             if (!header.hasClass('black'))
             {
