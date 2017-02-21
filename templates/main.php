@@ -25,7 +25,7 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="func-testing" class="col-md-4 item search" data-redirect="<?php echo $baseLink; ?>/competence#func">
+            <div id="func-testing" class="col-md-4 item search redirect" data-redirect="<?php echo $baseLink; ?>/competence#func">
                 <div class="icon">
                     <img src="img/icon-search.png" class="main"/>
                     <img src="img/icon-search_c.png" class="color"/>
@@ -38,7 +38,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="ui-testing" class="col-md-4 item write" data-redirect="<?php echo $baseLink; ?>/competence#ui">
+            <div id="ui-testing" class="col-md-4 item write redirect" data-redirect="<?php echo $baseLink; ?>/competence#ui">
                 <div class="icon">
                     <img src="img/icon-write.png" class="main"/>
                     <img src="img/icon-write_c.png" class="color"/>
@@ -51,7 +51,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="i18n-testing" class="col-md-4 item az" data-redirect="<?php echo $baseLink; ?>/competence#i18n">
+            <div id="i18n-testing" class="col-md-4 item az redirect" data-redirect="<?php echo $baseLink; ?>/competence#i18n">
                 <div class="icon">
                     <img src="img/icon-az.png" class="main"/>
                     <img src="img/icon-az_c.png" class="color" />
@@ -92,7 +92,7 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="mobile-app" class="col-md-4 item phone" data-redirect="<?php echo $baseLink; ?>/competence#app">
+            <div id="mobile-app" class="col-md-4 item phone redirect" data-redirect="<?php echo $baseLink; ?>/competence#app">
                 <div class="icon">
                     <img src="img/icon-phone.png" class="main"/>
                     <img src="img/icon-phone_c.png" class="color"/>
@@ -106,7 +106,7 @@ include 'header.php';
 
             </div>
 
-            <div id="web-sites" class="col-md-4 item desctop" data-redirect="<?php echo $baseLink; ?>/competence#web">
+            <div id="web-sites" class="col-md-4 item desctop redirect" data-redirect="<?php echo $baseLink; ?>/competence#web">
                 <div class="icon">
                     <img src="img/icon-desctop.png" class="main"/>
                     <img src="img/icon-desctop_c.png" class="color"/>
@@ -123,7 +123,7 @@ include 'header.php';
 
             </div>
 
-            <div id="social-app" class="col-md-4 item social" data-redirect="<?php echo $baseLink; ?>/competence#social">
+            <div id="social-app" class="col-md-4 item social redirect" data-redirect="<?php echo $baseLink; ?>/competence#social">
                 <div class="icon">
                     <img src="img/icon-social.png" class="main"/>
                     <img src="img/icon-social_c.png" class="color"/>
