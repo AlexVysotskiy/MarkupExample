@@ -2,34 +2,34 @@
 
     $("#phone").mask("+7 (999) 999 99 99");
 
-//    $('[data-hoverable]').hover(function () {
-//
-//        var element = $($(this).data('hoverable'));
-//        if (element.length)
-//        {
-//            element.addClass('hover');
-//
-//        }
-//
-//    }, function () {
-//
-//        var element = $($(this).data('hoverable'));
-//        if (element.length)
-//        {
-//            element.removeClass('hover');
-//
-//        }
-//    });
-//
-//    $('[data-hoverable]').on('click', function () {
-//        var element = $($(this).data('hoverable'));
-//        if (element.length)
-//        {
-//            element.removeClass('hover');
-//            alert(321);
-//
-//        }
-//    });
+    $('[data-hoverable]').hover(function () {
+
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.addClass('hover');
+
+        }
+
+    }, function () {
+
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.removeClass('hover');
+
+        }
+    });
+
+    $('[data-hoverable]').on('click', function () {
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.removeClass('hover');
+            alert(321);
+
+        }
+    });
 //
     $('.redirect').on('click', function () {
 
@@ -37,9 +37,9 @@
 //        alert(123);
     });
 
-    $('.redirect').on("touchstart", function () {
-        location = $(this).data('redirect');
-    });
+//    $('.redirect').on("touchstart", function () {
+//        location = $(this).data('redirect');
+//    });
 
     // slider on main
     var holder = $('.projects-desc');
