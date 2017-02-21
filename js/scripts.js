@@ -31,12 +31,12 @@
 //        }
 //    });
 //
-    $('.redirect').on('click', function () {
+//    $('.redirect').on('click', function () {
 
-        location = $(this).data('redirect');
+//        location = $(this).data('redirect');
 
 //alert(123);
-    });
+//    });
 
     // slider on main
     var holder = $('.projects-desc');
