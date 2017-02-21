@@ -2,48 +2,48 @@
 
     $("#phone").mask("+7 (999) 999 99 99");
 
-    $('[data-hoverable]').hover(function () {
-
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.addClass('hover');
-
-        }
-
-    }, function () {
-
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.removeClass('hover');
-
-        }
-    });
-
-    $('[data-hoverable]').on('click', function () {
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.removeClass('hover');
-//            alert(321);
-
-        }
-
-        return true;
-    });
+//    $('[data-hoverable]').hover(function () {
+//
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.addClass('hover');
+//
+//        }
+//
+//    }, function () {
+//
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.removeClass('hover');
+//
+//        }
+//    });
+//
+//    $('[data-hoverable]').on('click', function () {
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.removeClass('hover');
+////            alert(321);
+//
+//        }
+//
+//        return true;
+//    });
     
-    $('[data-hoverable]').on('mousedown', function () {
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.removeClass('hover');
-//            alert(321);
-
-        }
-
-        return true;
-    });
+//    $('[data-hoverable]').on('mousedown', function () {
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.removeClass('hover');
+////            alert(321);
+//
+//        }
+//
+//        return true;
+//    });
 //
     $('.redirect').on('click', function () {
 
