@@ -25,7 +25,7 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="func-testing" class="col-md-4 item search redirect" data-redirect="<?php echo $baseLink; ?>/competence#func">
+            <div id="func-testing" class="col-md-4 item search redirect" data-redirect="<?php echo $baseLink; ?>/competence#func" onclick="alert(123);">
                 <div class="icon">
                     <img src="img/icon-search.png" class="main"/>
                     <img src="img/icon-search_c.png" class="color"/>
