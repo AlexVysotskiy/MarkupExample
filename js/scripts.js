@@ -37,6 +37,10 @@
 //        alert(123);
     });
 
+    $('.redirect').bind("touchstart", function () {
+        alert('hi');
+    });
+
     // slider on main
     var holder = $('.projects-desc');
     if (holder.length)
