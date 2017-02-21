@@ -666,7 +666,7 @@ ul.styled li + li
 .hor-slider-page .actions [class*="button"]
 {
     cursor: pointer;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
     position: relative;
 }
@@ -687,8 +687,8 @@ ul.styled li + li
 .hor-slider-page  .actions .button-next:after
 {
     content: "";
-    width: 35px;
-    height: 35px;
+    width: 26px;
+    height: 26px;
     display: inline-block;
     position: absolute;        
 }
@@ -697,27 +697,31 @@ ul.styled li + li
 {
 
     background: url(../img/icon-arrow-left.png);
-    top: 7px;
-    left: -42px;
+    background-size: contain;
+    top: 5px;
+    left: -35px;
 
 }
 
 .hor-slider-page .actions .button-prev:hover:before
 {
     background: url(../img/icon-arrow-left-active.png);
+    background-size: contain;
 }
 
 .hor-slider-page .actions .button-next:after
 {
     background: url(../img/icon-arrow-right.png);
-    top: 7px;
-    right: -42px;
+    background-size: contain;
+    top: 5px;
+    right: -35px;
 }
 
 
 .hor-slider-page .actions .button-next:hover:after
 {
     background: url(../img/icon-arrow-right-active.png);
+    background-size: contain;
 }
 
 #services-sliders .projects-list .title

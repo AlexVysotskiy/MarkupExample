@@ -26,7 +26,7 @@
         if (element.length)
         {
             element.removeClass('hover');
-            alert(321);
+//            alert(321);
 
         }
     });
