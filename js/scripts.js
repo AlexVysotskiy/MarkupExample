@@ -7,7 +7,7 @@
         var element = $($(this).data('hoverable'));
         if (element.length)
         {
-//            element.addClass('hover');
+            element.addClass('hover');
 
         }
 
@@ -16,7 +16,16 @@
         var element = $($(this).data('hoverable'));
         if (element.length)
         {
-//            element.removeClass('hover');
+            element.removeClass('hover');
+
+        }
+    });
+
+    $('[data-hoverable]').on('click', function () {
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.removeClass('hover');
 
         }
     });
@@ -116,7 +125,7 @@
 
             var swiperV = new Swiper($(this), {
                 nextButton: $(this).parent().find('.swiper-button-next').first(),
-                prevButton:  $(this).parent().find('.swiper-button-prev').first(),
+                prevButton: $(this).parent().find('.swiper-button-prev').first(),
                 direction: 'vertical',
                 spaceBetween: 25,
                 height: 230,
