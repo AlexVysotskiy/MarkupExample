@@ -7,7 +7,7 @@
         var element = $($(this).data('hoverable'));
         if (element.length)
         {
-            element.addClass('hover');
+//            element.addClass('hover');
 
         }
 
@@ -16,7 +16,7 @@
         var element = $($(this).data('hoverable'));
         if (element.length)
         {
-            element.removeClass('hover');
+//            element.removeClass('hover');
 
         }
     });
