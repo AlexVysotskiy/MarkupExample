@@ -37,19 +37,18 @@ body {
     height: 95px;
     border-bottom: 1px solid rgba(255,255,255,0.3);
     z-index: 100;
-    position: relative;
+    position: fixed;
     width: 100%;
     /*max-width: 1204px;*/
     margin: 0 auto;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 }
 
 .header.scrolled
 {
-    position: fixed;
     background-color: #fff!important;
-    left: 0;
-    top: 0;
-    z-index: 1000;
 }
 
 /* Footer
