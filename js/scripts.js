@@ -26,6 +26,7 @@
         if (element.length)
         {
             element.removeClass('hover');
+            alert(321);
 
         }
     });
@@ -34,6 +35,7 @@
 
         location = $(this).data('redirect');
 
+alert(123);
     });
 
     // slider on main
