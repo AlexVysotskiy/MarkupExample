@@ -2,41 +2,41 @@
 
     $("#phone").mask("+7 (999) 999 99 99");
 
-    $('[data-hoverable]').hover(function () {
-
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.addClass('hover');
-
-        }
-
-    }, function () {
-
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.removeClass('hover');
-
-        }
-    });
-
-    $('[data-hoverable]').on('click', function () {
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.removeClass('hover');
-            alert(321);
-
-        }
-    });
-
-    $('[data-redirect]').on('click', function () {
-
-        location = $(this).data('redirect');
-
-alert(123);
-    });
+//    $('[data-hoverable]').hover(function () {
+//
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.addClass('hover');
+//
+//        }
+//
+//    }, function () {
+//
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.removeClass('hover');
+//
+//        }
+//    });
+//
+//    $('[data-hoverable]').on('click', function () {
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.removeClass('hover');
+//            alert(321);
+//
+//        }
+//    });
+//
+//    $('[data-redirect]').on('click', function () {
+//
+//        location = $(this).data('redirect');
+//
+//alert(123);
+//    });
 
     // slider on main
     var holder = $('.projects-desc');
