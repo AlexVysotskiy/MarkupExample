@@ -1,4 +1,5 @@
-@import url(fonts.css);
+/*@import url(fonts.css);*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=cyrillic,cyrillic-ext');
 
 html {
     height: 100%;
@@ -10,7 +11,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {   
     font-weight: 300;
     font-size: 14px;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
     background: #fff;
