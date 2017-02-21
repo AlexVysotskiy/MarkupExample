@@ -33,12 +33,12 @@
 //
     $('.redirect').on('click', function () {
 
-//        location = $(this).data('redirect');
+        location = $(this).data('redirect');
 //        alert(123);
     });
 
-    $('.redirect').bind("touchstart", function () {
-        alert('hi');
+    $('.redirect').on("touchstart", function () {
+        location = $(this).data('redirect');
     });
 
     // slider on main
