@@ -184,6 +184,12 @@ include 'header.php';
                 <div class="swiper-button-next"></div>
             </div>
 
+            <div class="row text-center action-row">
+                <a href="<?php echo $baseLink; ?>/projects" class="btn btn-success styled  ">
+                    Смотреть все проекты
+                </a>
+            </div>
+
             <div class="projects-desc">
                 <div id="project-desc-0" class="item active">
                     <h1 class="header-text">
@@ -285,11 +291,7 @@ include 'header.php';
             <!-- Initialize Swiper -->
 
         </div>
-        <div class="row text-center action-row">
-            <a href="<?php echo $baseLink; ?>/projects" class="btn btn-success styled  ">
-                Смотреть все проекты
-            </a>
-        </div>
+
     </div>
 </div>
 
