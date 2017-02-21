@@ -27,7 +27,8 @@ include 'header.php';
 
             <div id="func-testing" class="col-md-4 item search" data-redirect="<?php echo $baseLink; ?>/competence#func">
                 <div class="icon">
-                    <!--<img src="img/icon-search.png" />-->
+                    <img src="img/icon-search.png" class="main"/>
+                    <img src="img/icon-search_c.png" class="color"/>
                 </div>
                 <div class="header-text">
                     Функциональное тестирование
@@ -39,7 +40,8 @@ include 'header.php';
 
             <div id="ui-testing" class="col-md-4 item write" data-redirect="<?php echo $baseLink; ?>/competence#ui">
                 <div class="icon">
-                    <!--<img src="img/icon-write.png" />-->
+                    <img src="img/icon-write.png" class="main"/>
+                    <img src="img/icon-write_c.png" class="color"/>
                 </div>
                 <div class="header-text">
                     Юзабилити тестирование
@@ -51,7 +53,8 @@ include 'header.php';
 
             <div id="i18n-testing" class="col-md-4 item az" data-redirect="<?php echo $baseLink; ?>/competence#i18n">
                 <div class="icon">
-                    <!--<img src="img/icon-az.png" />-->
+                    <img src="img/icon-az.png" class="main"/>
+                    <img src="img/icon-az_c.png" class="color" />
                 </div>
                 <div class="header-text">
                     Тестирование локализации
@@ -91,7 +94,8 @@ include 'header.php';
 
             <div id="mobile-app" class="col-md-4 item phone" data-redirect="<?php echo $baseLink; ?>/competence#app">
                 <div class="icon">
-                    <!--<img src="img/icon-phone.png" />-->
+                    <img src="img/icon-phone.png" class="main"/>
+                    <img src="img/icon-phone_c.png" class="color"/>
                 </div>
                 <div class="header-text">
                     Мобильные приложения
@@ -104,7 +108,8 @@ include 'header.php';
 
             <div id="web-sites" class="col-md-4 item desctop" data-redirect="<?php echo $baseLink; ?>/competence#web">
                 <div class="icon">
-                    <!--<img src="img/icon-desctop.png" />-->
+                    <img src="img/icon-desctop.png" class="main"/>
+                    <img src="img/icon-desctop_c.png" class="color"/>
                 </div>
                 <div class="header-text">
                     Web-сайты
@@ -120,7 +125,8 @@ include 'header.php';
 
             <div id="social-app" class="col-md-4 item social" data-redirect="<?php echo $baseLink; ?>/competence#social">
                 <div class="icon">
-                    <!--<img src="img/icon-social.png" />-->
+                    <img src="img/icon-social.png" class="main"/>
+                    <img src="img/icon-social_c.png" class="color"/>
                 </div>
                 <div class="header-text">
                     Приложения<br/>для соц. сетей

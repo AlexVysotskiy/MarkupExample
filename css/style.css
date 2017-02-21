@@ -311,6 +311,7 @@ h1
 
 .promo-features .item > .icon
 {
+    text-align: center;
     height: 160px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -319,73 +320,91 @@ h1
 .promo-features .item.search > .icon
 {
     width: 109px;
-    background-image: url(../img/icon-search.png);
+    /*background-image: url(../img/icon-search.png);*/
 }
 
 .promo-features .item.search.hover > .icon,
 .promo-features .item.search:hover > .icon
 {
-    background-image: url(../img/icon-search_c.png);
+    /*background-image: url(../img/icon-search_c.png);*/
 }
 
 .promo-features .item.write > .icon
 {
     width: 104px;
-    background-image: url(../img/icon-write.png);
+    /*background-image: url(../img/icon-write.png);*/
 }
 
 .promo-features .item.write.hover > .icon,
 .promo-features .item.write:hover > .icon
 {
-    background-image: url(../img/icon-write_c.png);
+    /*background-image: url(../img/icon-write_c.png);*/
 }
 
 .promo-features .item.az > .icon
 {
     width: 111px;
-    background-image: url(../img/icon-az.png);
+    /*background-image: url(../img/icon-az.png);*/
 }
 
 .promo-features .item.az.hover > .icon,
 .promo-features .item.az:hover > .icon
 {
-    background-image: url(../img/icon-az_c.png);
+    /*background-image: url(../img/icon-az_c.png);*/
 }
 
 .promo-features .item.phone > .icon
 {
     width: 88px;
-    background-image: url(../img/icon-phone.png);
+    /*background-image: url(../img/icon-phone.png);*/
 }
 
 .promo-features .item.phone.hover > .icon,
 .promo-features .item.phone:hover > .icon
 {
-    background-image: url(../img/icon-phone_c.png);
+    /*background-image: url(../img/icon-phone_c.png);*/
 }
 
 .promo-features .item.desctop > .icon
 {
     width: 135px;
-    background-image: url(../img/icon-desctop.png);
+    /*background-image: url(../img/icon-desctop.png);*/
 }
 
 .promo-features .item.desctop.hover > .icon,
 .promo-features .item.desctop:hover > .icon
 {
-    background-image: url(../img/icon-desctop_c.png);
+    /*background-image: url(../img/icon-desctop_c.png);*/
 }
 
 .promo-features .item.social > .icon
 {
     width: 91px;
-    background-image: url(../img/icon-social.png);
+    /*background-image: url(../img/icon-social.png);*/
 }
 
 .promo-features .item.social.hover > .icon,
 .promo-features .item.social:hover > .icon
 {
-    background-image: url(../img/icon-social_c.png);
+    /*background-image: url(../img/icon-social_c.png);*/
+}
+
+.promo-features .item > .icon .color
+{
+    display: none;
+}
+
+.promo-features .item.hover > .icon .color,
+.promo-features .item:hover > .icon .color
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.promo-features .item.hover > .icon .main,
+.promo-features .item:hover > .icon .main
+{
+    display: none;
 }
 
 .promo-features .item>.header-text
@@ -630,6 +649,11 @@ ul.styled li + li
     margin-bottom: 40px;
     font-size: 38px;
     margin-top: 0px;
+}
+
+#services-page .image img
+{
+    max-width: 100%;
 }
 
 .hor-slider-page .row.actions
