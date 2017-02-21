@@ -7,8 +7,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     display: block;
 }
 
-body {    
-    font: 300 14px Roboto;
+body {   
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Roboto', serif;
     width: 100%;
     height: 100%;
     background: #fff;
