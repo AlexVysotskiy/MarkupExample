@@ -29,6 +29,20 @@
 //            alert(321);
 
         }
+
+        return true;
+    });
+    
+    $('[data-hoverable]').on('mousedown', function () {
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.removeClass('hover');
+//            alert(321);
+
+        }
+
+        return true;
     });
 //
     $('.redirect').on('click', function () {
