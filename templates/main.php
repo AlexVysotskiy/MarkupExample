@@ -140,7 +140,7 @@ include 'header.php';
 
         <div class="row promo-features-links">
             <div class="col-md-4 item">
-                <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled  " data-hoverable="#mobile-app">
+                <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled  " data-hoverable="#mobile-app" onclick="location='<?php echo $baseLink; ?>/services#app'">
                     Подробнее
                 </a>
             </div>
