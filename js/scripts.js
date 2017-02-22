@@ -1,7 +1,7 @@
 (function () {
 
     $("#phone").mask("+7 (999) 999 99 99");
-
+    
 //    $('[data-hoverable]').on('mouseenter', function () {
 //        var element = $($(this).data('hoverable'));
 //        if (element.length)

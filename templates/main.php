@@ -25,7 +25,7 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="func-testing" class="col-md-4 item search redirect" data-redirect="<?php echo $baseLink; ?>/competence#func">
+            <div id="func-testing" class="col-md-4 item search redirect">
                 <div class="icon">
                     <img src="img/icon-search.png" class="main"/>
                     <img src="img/icon-search_c.png" class="color"/>
@@ -37,13 +37,13 @@ include 'header.php';
                     Это процесс или результат формирования требуемых свойств и характеристик продукции по мере её создания
                 </div>
                 <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#func" class="btn btn-success styled  " data-hoverable="#func-testing">
+                    <a href="<?php echo $baseLink; ?>/competence#func" class="btn btn-success styled">
                         Подробнее
                     </a>
                 </div>
             </div>
 
-            <div id="ui-testing" class="col-md-4 item write redirect" data-redirect="<?php echo $baseLink; ?>/competence#ui">
+            <div id="ui-testing" class="col-md-4 item write redirect" >
                 <div class="icon">
                     <img src="img/icon-write.png" class="main"/>
                     <img src="img/icon-write_c.png" class="color"/>
@@ -55,13 +55,13 @@ include 'header.php';
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
                 <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#ui" class="btn btn-success styled  " data-hoverable="#ui-testing">
+                    <a href="<?php echo $baseLink; ?>/competence#ui" class="btn btn-success styled" >
                         Подробнее
                     </a>
                 </div>
             </div>
 
-            <div id="i18n-testing" class="col-md-4 item az redirect" data-redirect="<?php echo $baseLink; ?>/competence#i18n">
+            <div id="i18n-testing" class="col-md-4 item az redirect">
                 <div class="icon">
                     <img src="img/icon-az.png" class="main"/>
                     <img src="img/icon-az_c.png" class="color" />
@@ -73,7 +73,7 @@ include 'header.php';
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
                 <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#i18n" class="btn btn-success styled  " data-hoverable="#i18n-testing">
+                    <a href="<?php echo $baseLink; ?>/competence#i18n" class="btn btn-success styled" >
                         Подробнее
                     </a>
                 </div>
@@ -89,7 +89,7 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="mobile-app" class="col-md-4 item phone redirect" data-redirect="<?php echo $baseLink; ?>/competence#app">
+            <div id="mobile-app" class="col-md-4 item phone redirect" >
                 <div class="icon">
                     <img src="img/icon-phone.png" class="main"/>
                     <img src="img/icon-phone_c.png" class="color"/>
@@ -102,13 +102,13 @@ include 'header.php';
                 </div>
 
                 <div class="action">
-                    <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled  " data-hoverable="#mobile-app" onclick="location = '<?php echo $baseLink; ?>/services#app'">
+                    <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled" >
                         Подробнее
                     </a>
                 </div>
             </div>
 
-            <div id="web-sites" class="col-md-4 item desctop redirect" data-redirect="<?php echo $baseLink; ?>/competence#web">
+            <div id="web-sites" class="col-md-4 item desctop redirect">
                 <div class="icon">
                     <img src="img/icon-desctop.png" class="main"/>
                     <img src="img/icon-desctop_c.png" class="color"/>
@@ -123,13 +123,13 @@ include 'header.php';
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
                 <div class="action">
-                    <a href="<?php echo $baseLink; ?>/services#web" class="btn btn-success styled  " data-hoverable="#web-sites">
+                    <a href="<?php echo $baseLink; ?>/services#web" class="btn btn-success styled  ">
                         Подробнее
                     </a>
                 </div>
             </div>
 
-            <div id="social-app" class="col-md-4 item social redirect" data-redirect="<?php echo $baseLink; ?>/competence#social">
+            <div id="social-app" class="col-md-4 item social redirect">
                 <div class="icon">
                     <img src="img/icon-social.png" class="main"/>
                     <img src="img/icon-social_c.png" class="color"/>
@@ -141,7 +141,7 @@ include 'header.php';
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
                 <div class="action">
-                    <a href="<?php echo $baseLink; ?>/services#social" class="btn btn-success styled  " data-hoverable="#social-app">
+                    <a href="<?php echo $baseLink; ?>/services#social" class="btn btn-success styled  ">
                         Подробнее
                     </a>
                 </div>
