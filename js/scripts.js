@@ -84,9 +84,10 @@
             prevButton: '.swiper-button-prev',
             initialSlide: 0,
 //            effect: 'coverflow',
+            spaceBetween: 50,
             centeredSlides: true,
             loop: true,
-            slidesPerView: 'auto',
+            slidesPerView: 'auto'
 //            coverflow: {
 //                rotate: 50,
 //                stretch: 0,

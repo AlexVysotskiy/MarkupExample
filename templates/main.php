@@ -173,9 +173,8 @@ include 'header.php';
                     <div class="swiper-slide" style="background-image:url(img/projects/mult.jpg)"></div>
                     <div class="swiper-slide" style="background-image:url(img/projects/mult-site.png)"></div>
                     <div class="swiper-slide" style="background-image:url(img/projects/det.png)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/projects/patrol.png)"></div>
                     <div class="swiper-slide" style="background-image:url(img/projects/rt.png)"></div>
-
+                    <div class="swiper-slide" style="background-image:url(img/projects/patrol.png)"></div>
                 </div>
                 <!-- Add Pagination -->
                 <!--<div class="swiper-pagination"></div>-->
@@ -270,15 +269,7 @@ include 'header.php';
                         Головоломка по мотивам сериала “Тайны Следствия”. Помогай героям сериала распутывать самые загадочные дела: собери улики, проведи расследование, отправляйся в погоню!
                     </div>
                 </div>
-                <div id="project-desc-9" class="item">
-                    <h1 class="header-text">
-                        Сказочный патруль
-                    </h1>
-                    <div class="body-text font-light">
-                        В мультике этого не было! Играй за любую из волшебниц, выполняй задания, фотографируй, коллекционируй магических животных и соревнуйся с друзьями в новой клевой игре для девчонок и парней. Создавай свой декор, коллекционируй редкие растения и фотографии сказочных животных, используй магические способности.
-                    </div>
-                </div>
-                <div id="project-desc-10" class="item">
+                  <div id="project-desc-9" class="item">
                     <h1 class="header-text">
                         Россия 1
                     </h1>
@@ -286,6 +277,15 @@ include 'header.php';
                         "Россия 1" - официальное приложение Всероссийской государственной телерадиокомпании для мобильных устройств, работающих под управлением Android. 
                     </div>
                 </div>
+                <div id="project-desc-10" class="item">
+                    <h1 class="header-text">
+                        Сказочный патруль
+                    </h1>
+                    <div class="body-text font-light">
+                        В мультике этого не было! Играй за любую из волшебниц, выполняй задания, фотографируй, коллекционируй магических животных и соревнуйся с друзьями в новой клевой игре для девчонок и парней. Создавай свой декор, коллекционируй редкие растения и фотографии сказочных животных, используй магические способности.
+                    </div>
+                </div>
+              
 
             </div>
             <!-- Initialize Swiper -->
