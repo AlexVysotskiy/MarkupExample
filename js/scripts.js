@@ -7,24 +7,24 @@
         var link = el.attr('href');
         window.location = link;
     });
-    
-//    $('[data-hoverable]').on('mouseenter', function () {
-//        var element = $($(this).data('hoverable'));
-//        if (element.length)
-//        {
-//            element.addClass('hover');
-//
-//        }
-//    });
-//
-//    $('[data-hoverable]').on('mouseleave', function () {
-//        var element = $($(this).data('hoverable'));
-//        if (element.length)
-//        {
-//            element.removeClass('hover');
-//
-//        }
-//    });
+
+    $('[data-hoverable]').on('mouseenter', function () {
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.addClass('hover');
+
+        }
+    });
+
+    $('[data-hoverable]').on('mouseleave', function () {
+        var element = $($(this).data('hoverable'));
+        if (element.length)
+        {
+            element.removeClass('hover');
+
+        }
+    });
 
 //    $('[data-hoverable]').hover(function () {
 //
@@ -69,10 +69,13 @@
 //        return true;
 //    });
 ////
-//    $('.redirect').on('click', function () {
-//
-//        location = $(this).data('redirect');
-//    });
+    $('.redirect').on('click', function () {
+
+        location = $(this).data('redirect');
+    }).on('click touchend', function () {
+
+        location = $(this).data('redirect');
+    });
 
 //    $('.redirect').on("touchstart", function () {
 //        location = $(this).data('redirect');
