@@ -62,12 +62,11 @@
 //
 //        return true;
 //    });
+////
+//    $('.redirect').on('click', function () {
 //
-    $('.redirect').on('click', function () {
-
-        location = $(this).data('redirect');
-//        alert(123);
-    });
+//        location = $(this).data('redirect');
+//    });
 
 //    $('.redirect').on("touchstart", function () {
 //        location = $(this).data('redirect');
