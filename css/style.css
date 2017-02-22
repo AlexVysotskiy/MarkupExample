@@ -426,6 +426,13 @@ h1
     text-align: justify;
     font-size: 18px;
     margin: 0 10px 10px;
+    height: 180px;
+    overflow-y: hidden;
+}
+
+.promo-features .item> .action
+{
+    margin-top: 10px;
 }
 
 .promo-features-links .item

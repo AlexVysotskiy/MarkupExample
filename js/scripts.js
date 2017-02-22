@@ -2,23 +2,23 @@
 
     $("#phone").mask("+7 (999) 999 99 99");
 
-    $('[data-hoverable]').on('mouseenter', function () {
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.addClass('hover');
-
-        }
-    });
-
-    $('[data-hoverable]').on('mouseleave', function () {
-        var element = $($(this).data('hoverable'));
-        if (element.length)
-        {
-            element.removeClass('hover');
-
-        }
-    });
+//    $('[data-hoverable]').on('mouseenter', function () {
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.addClass('hover');
+//
+//        }
+//    });
+//
+//    $('[data-hoverable]').on('mouseleave', function () {
+//        var element = $($(this).data('hoverable'));
+//        if (element.length)
+//        {
+//            element.removeClass('hover');
+//
+//        }
+//    });
 
 //    $('[data-hoverable]').hover(function () {
 //
