@@ -352,18 +352,18 @@ h1
     display: none;
 }
 
-.promo-features .item.hover > .icon .color,
+/*.promo-features .item.hover > .icon .color,
 .promo-features .item:hover > .icon .color
 {
     display: block;
     margin: 0 auto;
-}
+}*/
 
-.promo-features .item.hover > .icon .main,
+/*.promo-features .item.hover > .icon .main,
 .promo-features .item:hover > .icon .main
 {
     display: none;
-}
+}*/
 
 .promo-features .item>.header-text
 {
