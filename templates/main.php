@@ -24,11 +24,7 @@ include 'header.php';
             Наши компетенции
         </h1>
         <div class="row promo-features">
- <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#func">
-                        Подробнее
-                    </a>
-                </div>
+ 
             <div id="func-testing" class="col-md-4 item search">
                
                 <div class="icon">
