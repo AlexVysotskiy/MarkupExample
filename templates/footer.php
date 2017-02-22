@@ -31,7 +31,7 @@
             <div class="col-md-3 contact-info col-md-offset-5 text-right">
                 <div>
                     <img src="img/icon-phone-sm.png" /> 
-                    <a href="tel:+74951234567">
+                    <a href="tel:+79162194368">
                         <img src="img/phone.png" />
                     </a>
                     <!--<a href="tel:+74951234567">+7 (495) 123-45-67</a>-->
