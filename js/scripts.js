@@ -83,17 +83,17 @@
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
             initialSlide: 0,
-            effect: 'coverflow',
+//            effect: 'coverflow',
             centeredSlides: true,
             loop: true,
             slidesPerView: 'auto',
-            coverflow: {
-                rotate: 50,
-                stretch: 0,
-                depth: 0,
-                modifier: 1,
-                slideShadows: false
-            }
+//            coverflow: {
+//                rotate: 50,
+//                stretch: 0,
+//                depth: 0,
+//                modifier: 1,
+//                slideShadows: false
+//            }
         });
 
         swiper.on('transitionEnd', function (swiper) {
