@@ -306,7 +306,7 @@ h1
 .promo-features .item
 {
     text-align: center;
-    /*cursor: pointer;*/
+    cursor: pointer;
 }
 
 .promo-features .item > .icon
