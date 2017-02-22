@@ -1,6 +1,12 @@
 (function () {
 
     $("#phone").mask("+7 (999) 999 99 99");
+
+    $('a').on('click touchend', function (e) {
+        var el = $(this);
+        var link = el.attr('href');
+        window.location = link;
+    });
     
 //    $('[data-hoverable]').on('mouseenter', function () {
 //        var element = $($(this).data('hoverable'));
