@@ -75,9 +75,6 @@
     $('.redirect').on('click', function () {
 
         location = $(this).data('redirect');
-    }).on('click touchend', function () {
-
-        location = $(this).data('redirect');
     });
 
 //    $('.redirect').on("touchstart", function () {
