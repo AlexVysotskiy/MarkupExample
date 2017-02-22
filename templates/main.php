@@ -24,9 +24,8 @@ include 'header.php';
             Наши компетенции
         </h1>
         <div class="row promo-features">
- 
-            <div id="func-testing" class="col-md-4 item search">
-               
+
+            <div id="func-testing" class="col-md-4 item search redirect" data-redirect="<?php echo $baseLink; ?>/competence#func">
                 <div class="icon">
                     <img src="img/icon-search.png" class="main"/>
                     <img src="img/icon-search_c.png" class="color"/>
@@ -37,14 +36,10 @@ include 'header.php';
                 <div class="body-text">
                     Это процесс или результат формирования требуемых свойств и характеристик продукции по мере её создания
                 </div>
-                <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#func" class="btn btn-success styled">
-                        Подробнее
-                    </a>
-                </div>
+                
             </div>
 
-            <div id="ui-testing" class="col-md-4 item write redirect" >
+            <div id="ui-testing" class="col-md-4 item write redirect" data-redirect="<?php echo $baseLink; ?>/competence#ui">
                 <div class="icon">
                     <img src="img/icon-write.png" class="main"/>
                     <img src="img/icon-write_c.png" class="color"/>
@@ -55,14 +50,9 @@ include 'header.php';
                 <div class="body-text">
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
-                <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#ui" class="btn btn-success styled" >
-                        Подробнее
-                    </a>
-                </div>
             </div>
 
-            <div id="i18n-testing" class="col-md-4 item az redirect">
+            <div id="i18n-testing" class="col-md-4 item az redirect" data-redirect="<?php echo $baseLink; ?>/competence#i18n">
                 <div class="icon">
                     <img src="img/icon-az.png" class="main"/>
                     <img src="img/icon-az_c.png" class="color" />
@@ -73,11 +63,24 @@ include 'header.php';
                 <div class="body-text">
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
-                <div class="action">
-                    <a href="<?php echo $baseLink; ?>/competence#i18n" class="btn btn-success styled" >
-                        Подробнее
-                    </a>
-                </div>
+
+            </div>
+        </div>
+        <div class="row promo-features-links">
+            <div class="col-md-4 item">
+                <a href="<?php echo $baseLink; ?>/competence#func" class="btn btn-success styled  " data-hoverable="#func-testing">
+                    Подробнее
+                </a>
+            </div>
+            <div class="col-md-4 item">
+                <a href="<?php echo $baseLink; ?>/competence#ui" class="btn btn-success styled  " data-hoverable="#ui-testing">
+                    Подробнее
+                </a>
+            </div>
+            <div class="col-md-4 item">
+                <a href="<?php echo $baseLink; ?>/competence#i18n" class="btn btn-success styled  " data-hoverable="#i18n-testing">
+                    Подробнее
+                </a>
             </div>
         </div>
     </div>
@@ -90,7 +93,7 @@ include 'header.php';
         </h1>
         <div class="row promo-features">
 
-            <div id="mobile-app" class="col-md-4 item phone redirect" >
+            <div id="mobile-app" class="col-md-4 item phone redirect" data-redirect="<?php echo $baseLink; ?>/competence#app">
                 <div class="icon">
                     <img src="img/icon-phone.png" class="main"/>
                     <img src="img/icon-phone_c.png" class="color"/>
@@ -102,14 +105,9 @@ include 'header.php';
                     Это процесс или результат формирования требуемых свойств и характеристик продукции по мере её создания
                 </div>
 
-                <div class="action">
-                    <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled" >
-                        Подробнее
-                    </a>
-                </div>
             </div>
 
-            <div id="web-sites" class="col-md-4 item desctop redirect">
+            <div id="web-sites" class="col-md-4 item desctop redirect" data-redirect="<?php echo $baseLink; ?>/competence#web">
                 <div class="icon">
                     <img src="img/icon-desctop.png" class="main"/>
                     <img src="img/icon-desctop_c.png" class="color"/>
@@ -123,14 +121,10 @@ include 'header.php';
                 <div class="body-text">
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
-                <div class="action">
-                    <a href="<?php echo $baseLink; ?>/services#web" class="btn btn-success styled  ">
-                        Подробнее
-                    </a>
-                </div>
+
             </div>
 
-            <div id="social-app" class="col-md-4 item social redirect">
+            <div id="social-app" class="col-md-4 item social redirect" data-redirect="<?php echo $baseLink; ?>/competence#social">
                 <div class="icon">
                     <img src="img/icon-social.png" class="main"/>
                     <img src="img/icon-social_c.png" class="color"/>
@@ -141,11 +135,25 @@ include 'header.php';
                 <div class="body-text">
                     Это процесс или результат формирования требуемых свойств и характеристик 
                 </div>
-                <div class="action">
-                    <a href="<?php echo $baseLink; ?>/services#social" class="btn btn-success styled  ">
-                        Подробнее
-                    </a>
-                </div>
+
+            </div>
+        </div>
+
+        <div class="row promo-features-links">
+            <div class="col-md-4 item">
+                <a href="<?php echo $baseLink; ?>/services#app" class="btn btn-success styled  " data-hoverable="#mobile-app" onclick="location='<?php echo $baseLink; ?>/services#app'">
+                    Подробнее
+                </a>
+            </div>
+            <div class="col-md-4 item">
+                <a href="<?php echo $baseLink; ?>/services#web" class="btn btn-success styled  " data-hoverable="#web-sites">
+                    Подробнее
+                </a>
+            </div>
+            <div class="col-md-4 item">
+                <a href="<?php echo $baseLink; ?>/services#social" class="btn btn-success styled  " data-hoverable="#social-app">
+                    Подробнее
+                </a>
             </div>
         </div>
     </div>
@@ -262,7 +270,7 @@ include 'header.php';
                         Головоломка по мотивам сериала “Тайны Следствия”. Помогай героям сериала распутывать самые загадочные дела: собери улики, проведи расследование, отправляйся в погоню!
                     </div>
                 </div>
-                <div id="project-desc-9" class="item">
+                  <div id="project-desc-9" class="item">
                     <h1 class="header-text">
                         Россия 1
                     </h1>
@@ -278,7 +286,7 @@ include 'header.php';
                         В мультике этого не было! Играй за любую из волшебниц, выполняй задания, фотографируй, коллекционируй магических животных и соревнуйся с друзьями в новой клевой игре для девчонок и парней. Создавай свой декор, коллекционируй редкие растения и фотографии сказочных животных, используй магические способности.
                     </div>
                 </div>
-
+              
 
             </div>
             <!-- Initialize Swiper -->
