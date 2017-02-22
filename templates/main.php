@@ -26,6 +26,11 @@ include 'header.php';
         <div class="row promo-features">
 
             <div id="func-testing" class="col-md-4 item search redirect">
+                <div class="action">
+                    <a href="<?php echo $baseLink; ?>/competence#func">
+                        Подробнее
+                    </a>
+                </div>
                 <div class="icon">
                     <img src="img/icon-search.png" class="main"/>
                     <img src="img/icon-search_c.png" class="color"/>
