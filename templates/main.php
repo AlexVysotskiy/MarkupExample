@@ -29,7 +29,7 @@ include 'header.php';
                         Подробнее
                     </a>
                 </div>
-            <div id="func-testing" class="col-md-4 item search redirect">
+            <div id="func-testing" class="col-md-4 item1 search1 redirect1">
                
                 <div class="icon">
                     <img src="img/icon-search.png" class="main"/>
