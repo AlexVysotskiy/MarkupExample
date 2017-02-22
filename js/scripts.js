@@ -84,13 +84,6 @@
             prevButton: '.swiper-button-prev',
             initialSlide: 0,
             effect: 'coverflow',
-            coverflow: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: false
-            },
             centeredSlides: true,
             loop: true,
             slidesPerView: 'auto',
@@ -99,7 +92,7 @@
                 stretch: 0,
                 depth: 100,
                 modifier: 1,
-                slideShadows: true
+                slideShadows: false
             }
         });
 
