@@ -10,7 +10,7 @@ include 'header.php';
         <!-- Swiper -->
         <div class="row item">
             <div class="col-md-6 image text-center">
-                <img src="img/services-mobile-app.png" />
+                <img src="img/4.jpg" />
             </div>
             <div class="col-md-6 text">
                 <a name="web"></a>
@@ -27,7 +27,7 @@ include 'header.php';
 
         <div class="row item">
             <div class="col-md-6 image text-center">
-                <img src="img/services-mobile-app.png" />
+                <img src="img/5.jpg" />
             </div>
             <div class="col-md-6 text">
                 <a name="app"></a>
@@ -44,7 +44,7 @@ include 'header.php';
 
         <div class="row item">
             <div class="col-md-6 image text-center">
-                <img src="img/services-mobile-app.png" />
+                <img src="img/6.jpg" />
             </div>
             <div class="col-md-6 text">
                 <a name="social"></a>

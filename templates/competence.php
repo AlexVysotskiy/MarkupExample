@@ -9,7 +9,7 @@ include 'header.php';
         <!-- Swiper -->
         <div class="row item">
             <div class="col-md-6 image text-center">
-                <img src="img/services-mobile-app.png" />
+                <img src="img/10.jpg" />
             </div>
             <div class="col-md-6 text">
                 <a name="func"></a>
@@ -49,7 +49,7 @@ include 'header.php';
 
         <div class="row item">
             <div class="col-md-6 image text-center">
-                <img src="img/services-mobile-app.png" />
+                <img src="img/11.jpg" />
             </div>
             <div class="col-md-6 text">
                 <a name="ui"></a>
