@@ -20,20 +20,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/mimi.jpg" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -134,20 +123,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/papers.jpg" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -248,20 +226,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/arkadiy.jpg" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -362,20 +329,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/words.jpg" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -476,20 +432,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/lantern.jpg" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -590,20 +535,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/village.jpg" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -704,20 +638,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/mult.png" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -818,20 +741,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/mult-site.png" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -932,20 +844,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/det.png" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -1046,20 +947,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/patrol.png" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -1160,20 +1050,9 @@ include 'header.php';
                                 <div class="swiper-container swiper-container-v">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
+                                            <img src="img/projects/rt.png" />
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="img/project-gallery-1.png" />
-                                        </div>
+
                                     </div>
                                 </div>
 
