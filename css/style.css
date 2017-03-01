@@ -701,6 +701,11 @@ ul.styled li + li
     margin-top: 30px;
 }
 
+#services-sliders .projects-list .row + .row.app-links
+{
+    margin-top: 0px;
+}
+
 #services-sliders .swiper-container-v
 {
     height: 460px;

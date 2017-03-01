@@ -9,7 +9,7 @@
         <meta name="description" content="" />
         <link rel="stylesheet" href="css/bootstrap.min.css?v=1"  />
         <link rel="stylesheet" href="css/swiper.min.css?v=1"  />
-        <link rel="stylesheet" href="css/style.css?v=10.901"  />
+        <link rel="stylesheet" href="css/style.css?v=10.902"  />
         <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     </head>
 
