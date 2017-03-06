@@ -184,15 +184,38 @@
 
 
     var modal = $('#send-request-modal');
+    var sendRequestButton = modal.find('.send-request');
+    var agreeCheckBox = modal.find('#agree-checkbox');
 
     modal.on('hidden.bs.modal', function (e) {
+
         $(this).find('.form-control').val('');
         modal.find('.has-error').removeClass('has-error');
         modal.find('.modal-body.first').show(1);
         modal.find('.modal-body.second').hide(1);
+
+        sendRequestButton.addClass('disabled');
+
+        if (agreeCheckBox.is(':checked'))
+        {
+            agreeCheckBox.prop("checked", false);
+        }
     });
 
-    modal.find('.send-request').on('click', function () {
+
+
+    agreeCheckBox.on('change', function () {
+
+        if ($(this).is(':checked'))
+        {
+            sendRequestButton.removeClass('disabled');
+        } else
+        {
+            sendRequestButton.addClass('disabled');
+        }
+    });
+
+    sendRequestButton.on('click', function () {
 
         modal.find('.has-error').removeClass('has-error');
 

@@ -209,19 +209,19 @@ h1
 
 .header .navbar-brand
 {
-    margin: 30px 0;
+    margin: 31px 0;
     /*margin-top: 40px;*/
     padding-top: 0px;
     padding-left: 0px;
     display: block;
     width: 85px;
-    height: 29px;
-    background: url(../img/logo.png);
+    height: 28px;
+    background: url(../img/logo.png?v=1);
 }
 
 .header.black .navbar-brand
 {
-    background: url(../img/logo-black.png);
+    background: url(../img/logo-black.png?v=1);
 }
 
 .header .nav-pills>li.active>a, .header .nav-pills>li.active>a:hover,.header .nav-pills>li.active>a:focus,
@@ -763,9 +763,9 @@ ul.styled li + li
     color: #000;
 }
 
-.modal .send-request
+.modal .send-request-holder
 {
-    margin-top: 120px;
+    margin-top: 103px;
 }
 
 .modal-title
@@ -810,4 +810,33 @@ ul.styled li + li
 #projects-page #services-sliders
 {
     margin-top: 80px;
+}
+
+
+.regular-checkbox {
+    display: none;
+}
+
+.regular-checkbox + label:before {
+    content: 'a';
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    /*padding: 9px;*/
+    border-radius: 3px;
+    display: inline-block;
+    color: #fafafa;
+    margin-right: 5px;
+    
+    /*position: relative;*/
+}
+
+.regular-checkbox:checked + label:before {
+    content: '\2714';
+    color: #99a1a7;
+    /*font-size: 14px;*/
+
 }

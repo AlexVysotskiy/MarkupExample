@@ -14,19 +14,6 @@
                     © 2016 - <?php echo date('Y'); ?> The QA. Все права защищены.
                 </div>
             </div>
-            <?php /* <div class="col-md-4 text-center social-icons">
-              <a href="#">
-              <img src="img/icon-vk.png" />
-              </a>
-              <a href="#">
-              <img src="img/icon-fb.png" />
-              </a>
-              <a href="#">
-              <img src="img/icon-tw.png" />
-              </a>
-              </div>
-             * */
-            ?>
 
             <div class="col-md-3 contact-info col-md-offset-5 text-right">
                 <div>
@@ -34,7 +21,6 @@
                     <a href="tel:+79162194368">
                         <img src="img/phone.png" />
                     </a>
-                    <!--<a href="tel:+74951234567">+7 (495) 123-45-67</a>-->
                 </div>
                 <div>
                     <img src="img/icon-mail.png" />  <a href="mailto:request@theQA.ru">
@@ -73,7 +59,16 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a class="btn btn-success styled send-request" style="padding: 15px 30px;"><img src="img/icon-success.png" style="margin-right: 10px;"/> Отправить</a>
+
+                        <div class="send-request-holder">
+                            <div class="text-center" style="margin-bottom: 5px;">
+                                <input type="checkbox" id="agree-checkbox" class="regular-checkbox">
+                                <label for="agree-checkbox">Я не робот</label> 
+                            </div>
+                            <div>
+                                <a class="btn btn-success styled send-request disabled" style="padding: 15px 30px;"><img src="img/icon-success.png" style="margin-right: 10px;"/> Отправить</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -92,6 +87,6 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-<script type="text/javascript" src="js/scripts.js?v=17.907"></script>
+<script type="text/javascript" src="js/scripts.js?v=17.908"></script>
 </body>
 </html>
